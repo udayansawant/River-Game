@@ -17,7 +17,7 @@ It is an interactive Python game application that runs in the command line or te
 * **game_functionality.py** - imports the 2D matrix input from authenticate_data.py and contains two functions to perform the game logic as described below:
   * find_river_size(): takes the 2D matrix as input and find the river sizes using a BFS(breadth-first search) algorithm.
   * guess_the_river_sizes(): takes the river_size array as input and prompt the user to guess the river size at each index. The user guesses are evaluated against the river_size array to determine the winning percentage of the user. 
-* run.py - is the file executed to run the game.
+* **run.py** - is the file executed to run the game.
 
 
 	
